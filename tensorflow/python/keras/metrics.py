@@ -766,7 +766,7 @@ class SparseCategoricalAccuracy(MeanMetricWrapper):
 
 @keras_export('keras.metrics.TopKCategoricalAccuracy')
 class TopKCategoricalAccuracy(MeanMetricWrapper):
-  """Computes how often targets are in the top `K` predictions.
+  """Computes how often targets are in the top `k` predictions.
 
   Usage:
 
